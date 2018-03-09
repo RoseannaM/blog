@@ -40,7 +40,7 @@ function getPosts () {
   })
   return getFiles()
 }
-
+//routes
 export default {
 
   getSiteData: () => ({
@@ -70,6 +70,10 @@ export default {
             post,
           }),
         })),
+      },
+      {
+        path: '/games',
+        component: 'src/containers/Games',
       },
       {
         is404: true,
