@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:300,400,500');
+html {
+}
+
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
     'Lucida Grande', sans-serif;
@@ -5,6 +9,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background-color: #150a1c;
 }
 
 a {
@@ -17,20 +22,19 @@ img {
   max-width: 100%;
 }
 
-nav {
-  width: 100%;
-  background: #108db8;
-}
-
-nav a {
-  color: white;
-  padding: 1rem;
-  display: inline-block;
-}
 
 .content {
-  padding: 1rem;
+  background-color: #150a1c;
+  height: auto;          /* WebKit-based browsers will ignore this. */
+  height: auto;  /* Mozilla-based browsers will ignore this. */
+  height: auto;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
 .image {
   width: 25%;
   min-width: 250px;
@@ -41,3 +45,46 @@ nav a {
  display: flex;
  flex-direction: column;
 }
+
+
+.aligner-item {
+  max-width: 100%;
+}
+
+.aligner-item-top {
+  align-self: flex-start;
+}
+
+.aligner-item-bottom {
+  align-self: flex-end;
+}
+
+#home-title {
+  color:#FF00EA;
+  background: linear-gradient(135deg, #FF00EA, #8F018F, #07E2FF, #5900FF);
+  background: -o-linear-gradient(135deg, #FF00EA, #8F018F, #07E2FF, #5900FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  text-align: center;  
+  margin-top: 12%;
+}
+#home-sub-title {
+  font-family: 'Lato', sans-serif;  
+  color: #FF00EA;
+  font-size: 30px;
+}
+
+@media (max-width:320px)  { 
+  h1 { 
+    font-size: 2em; 
+} p {
+  font-size: 2em; 
+}
+ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

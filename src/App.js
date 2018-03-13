@@ -8,17 +8,7 @@ import './app.css'
 
 const App = () => (
   <Router>
-    <div>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/games">Games</Link>
-      </nav>
-      <div className="content">
-        <Routes />
-      </div>
-    </div>
+    <Routes />
   </Router>
 )
 

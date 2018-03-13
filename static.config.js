@@ -72,8 +72,8 @@ export default {
         })),
       },
       {
-        path: '/games',
-        component: 'src/containers/Games',
+        path: '/projects',
+        component: 'src/containers/Projects',
       },
       {
         is404: true,
