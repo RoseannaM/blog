@@ -1,10 +1,21 @@
 ---
 layout: blog
-title: 'Sample Post #3'
-date: 2018-02-19T00:48:58.232Z
-thumbnail: /uploads/image3.jpg
-rating: '5'
+title: Replacing Photoshop with Canva
+date: '2016-04-01T00:00:00-07:00'
+thumbnail: /uploads/canva-blog.png
 ---
-This is sample post #3.
+I thought today I would talk about Canva. I have been using Canva for a while now and have found it very useful. For years I have used photoshop. For photo editing, digital drawing, posters, social media content and so on. Also all of the assets for the games I make are drawn with photoshop so I know it like the back of my hand. (That’s such an odd saying, who ‘knows’ the back of their hand?.) Anyway, in the last year I stumbled across Canva. I heard about Canva at one of the Girl Geek Dinners I attended, and I quickly went to check it out. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi in nulla posuere sollicitudin aliquam. Turpis massa sed elementum tempus egestas. Tincidunt augue interdum velit euismod in. Orci dapibus ultrices in iaculis nunc sed augue. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. At volutpat diam ut venenatis tellus in metus vulputate eu. Vel turpis nunc eget lorem dolor sed viverra ipsum. Convallis a cras semper auctor. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Id aliquet lectus proin nibh. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse.
+I immediately found the service really useful and there is so much potential. The feature that stands out the most with Canva is it allows people with no digital design knowledge to produce professional looking content. So anyone can create a clean and professional mock up of a poster, business card and so on. 
+
+I have found Canva the most useful for me because it is fast. I often spend a lot of time in photoshop arranging the size of things, duplicating elements, colour matching etc but with Canva it’s so much faster.
+
+I use it for coming up with layouts for my phone apps and webpages. I can make multiple copies, change things about and then share my mock to get advice. 
+
+![logo-images](/uploads/logo-ideas-medium.png)
+
+I also find it useful for logo design. I spent a lot of time trying to come up with a logo for my HTML Canvas integration. I was having no luck with Photoshop so I popped over to Canva to see what I could come up with. They provide a ton of pre made illustrations and elements which I used to get an idea for my design. After figuring out I wanted something simple, I uploaded my own image and went on to place it onto a variety of different shapes, sizes and colors then again shared the mock ups with my friends. 
+
+Canva provides tons of free assets and also the option of purchasing paid assets, such as stock photos, backgrounds etc. This way you can make something a bit more original with professional photos and illustrations. 
+
+So yeah, that’s my plug for Canva. A cool Australian company that provides a service that I am very fond of :)
