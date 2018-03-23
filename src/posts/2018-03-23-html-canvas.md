@@ -14,7 +14,7 @@ I had recently learnt about some of the amazing features offered by Firebase so 
 
 Thus HTML Canvas was born! A real-time collaborative editor for front-end development. It’s to be used directly inside Hipchat, without the hassle of going to another web page, because what’s the point of that?
 
-![null](/uploads/canvas-error.png)
+<img src="/uploads/canvas-error.png" class="blog-images-md">
 
 So, I had my idea, now I needed to build it. I set off by reading through the Atlassian Connect Express (ACE) documentation. ACE makes creating add-ons for Hipchat super easy, as they sort out all of the complicated authentication stuff that no one likes dealing with. The ACE documentation is very in depth and there are a handful of useful walk throughs. First I took on the almighty HipChat weather map tutorial, [”Building your first add-on (Node.js)”](https://developer.atlassian.com/hipchat/tutorials/building-your-first-add-on-node-js). It’s basically a walk through on how to build a simple weather app for Hipchat. This is a great little intro into the basics of ACE and I was able to get the add-on up and running in no time. I was feeling pretty smug around this point because it was so easy, so I moved onto the next walk through. This was more in depth and outlined the technology stack being used and how to set up the HipChat components.
 
@@ -26,7 +26,7 @@ It was about time to make things pretty. I like making things pretty. I had an i
 
 AUI (Atlassian User Interface) is Atlassian’s front-end library. The user’s experience is important to me so I like to spend a lot of time on how something looks and feels. I was set on making an app that had its own distinct style but also fitted within the Hipchat UI. AUI is pretty straightforward to use and the documentation is simple and concise. The code snippets are really useful and I made use of the AUI sandbox quite a bit. I have a special place in my heart for you.
 
-![](/uploads/i-love-aui.jpg)
+<img src="/uploads/i-love-aui.jpg" class="blog-images-md">
 
 So, I had my editors working and syncing data to Firebase, I now needed to sort out all of the user authorisation stuff. This was all new to me, so that was fun. Thankfully ACE manages the user authentication on the Hipchat side, I was just responsible for the users project data. I needed to ensure people were authorised to access only their data and couldn’t snoop about the place. I’ll have none of that thank you. I used the power of JWTs to make this possible. The backend creates a JWT that encodes the user’s HipChat group and room id in the token. The token is fired off to the client from where it is then passed to Firebase. Lastly, through Firebase's security rules feature I can ensure data is only accessible to people with tokens that encode the correct IDs. 
 
@@ -43,9 +43,8 @@ I was done with all the complicated stuff, now I just had the last few touches t
 Next I went to work on the rendering of the input from Firepad. Basically the HTML, CSS and JS needed to be sent to an AUI dialogue and rendered, showing the working code. However, passing the input data from Firepad to the dialogue was a bit different than a few lines of Jquery. I needed to use a parameters object with the Hipchat api to move the data to an AUI dialogue. Figuring out how to pass the data around was something I had to think about a bit longer than I expected. Eventually this “simple” task was resolved and I had the dialogue rendering the code. But that’s how it usually is, often you get caught up on the “simple” tasks. 
 
 
-
 And viola! All sorted, done and dusted. I listed it on the Atlassian Marketplace in early April. I was able to get that delicious validation from my friends soon after when they said things like “Nice” and “It works!”. Currently close to 200 companies have installed it and it is listed as one of the top add-ons for Hipchat. 
 
-![](/uploads/hipchat-canvas.png)
+<img src="/uploads/hipchat-canvas.png" class="blog-images-md">
 
 Overall I really enjoyed working on HTML Canvas and am thrilled to see it being used so much. I look forward to working on similar projects in the future.
