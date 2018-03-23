@@ -34,18 +34,17 @@ export const ListItemContent = styled.div`
 export default withRouteData(({ posts }) => (
   <PageLayout>  
   <div>
-    <h1>It's blog time.</h1>
     <br/>
     <ListContainer>
       {posts.map(post => (
         <ListItem key={post.data.slug}>
+        {console.log(post.data.title)}
           <ListItemHeader>
           <Link to={`/blog/post/${post.data.slug}`}>
           <ListItemHeaderImg src={post.data.thumbnail} alt="" />
           </Link>
           </ListItemHeader>
           <ListItemContent>
-          {console.log(post.content.substring(0,100)  + '...')}
           <p>{post.content.substring(0,250)  + '...'}</p>
           </ListItemContent>
         </ListItem>
@@ -55,3 +54,4 @@ export default withRouteData(({ posts }) => (
 </PageLayout>
 
 ))
+// {console.log(post.content.substring(0,100)  + '...')}
