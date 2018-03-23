@@ -23,6 +23,8 @@ function getPosts () {
             delete dataObj.orig
             // Push object into items array //
             items.push(dataObj)
+            //check to see if posts are reversed
+            items.reverse()
           }
         })
         .on('error', e => {
