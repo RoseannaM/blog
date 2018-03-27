@@ -30,7 +30,7 @@ export const ListItemHeaderImg = styled.img`
 `
 export const ListItemContent = styled.div`
   margin: 20px;
-  color: #ffffff;
+  color: red;
 `
 
 export default withRouteData(({ posts }) => (
