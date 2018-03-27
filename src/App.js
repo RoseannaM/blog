@@ -7,10 +7,6 @@ import Routes from 'react-static-routes'
 
 import './app.css'
 
-injectGlobal`
-body {
-}
-`
 
 const App = () => (
   <Router>

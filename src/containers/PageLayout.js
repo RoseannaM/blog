@@ -1,7 +1,23 @@
 import React from 'react'
 import { Link } from 'react-static'
-import styled from 'styled-components';
 
+import styled, { injectGlobal } from 'styled-components'
+
+
+
+const PageContent = styled.div `
+  margin: auto;
+  width: 80%;
+  background-color: #150a1c;
+  height: auto;   /* WebKit-based browsers will ignore this. */
+  height: auto;  /* Mozilla-based browsers will ignore this. */
+  height: auto;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`
 const Nav = styled.nav`
     text-align: right;
     width: 100%;
@@ -59,8 +75,8 @@ export default ({ children }) => (
             <Link style={styles.navA} to="/projects" activeStyle={ActiveStyle}>Projects</Link>
         </NavLink>
     </Nav>
-    <div className="content">
+    <PageContent className="">
         {children}
-    </div>
+    </PageContent>
   </div>
 )

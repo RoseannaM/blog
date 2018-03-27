@@ -6,6 +6,8 @@ import styled from 'styled-components';
 export const ListContainer = styled.div`
   padding: initial;
   list-style: none;
+  display: flex;
+    flex-direction: column;
 `;
 export const ListItem = styled.li `
   height: auto;
@@ -14,17 +16,16 @@ export const ListItem = styled.li `
 `
 export const ListItemHeader = styled.div`
   width: auto;
-  height: 180px;
   overflow: hidden;
   min-width:auto;
-  min-height: 180px;
   cursor: pointer;
   :hover {
     box-shadow: rgba(44, 178, 225, 0.64) 0px 0px 3px 3px
   }
 `
 export const ListItemHeaderImg = styled.img` 
-  width: 100%;
+  max-width: 100%;
+  /* width: 100%; */
 `
 export const ListItemContent = styled.div`
   margin: 20px;

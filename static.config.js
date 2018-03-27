@@ -24,7 +24,7 @@ function getPosts () {
             // Push object into items array //
             items.push(dataObj)
             //check to see if posts are reversed
-            //items.reverse()
+            items.reverse()
           }
         })
         .on('error', e => {
