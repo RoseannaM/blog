@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-static'
 
-import styled, { injectGlobal } from 'styled-components'
+import styled from 'styled-components'
 
 
 
-const PageContent = styled.div `
+const PageContent = styled.div`
   margin: auto;
   width: 80%;
   background-color: #150a1c;

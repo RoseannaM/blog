@@ -1,7 +1,7 @@
 import React from 'react'
 import { Router, Link } from 'react-static'
 import { hot } from 'react-hot-loader'
-import styled , { injectGlobal } from 'styled-components';
+import styled from 'styled-components';
 //
 import Routes from 'react-static-routes'
 
