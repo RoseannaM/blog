@@ -15,5 +15,7 @@ if (typeof document !== 'undefined') {
   }
 
   // Render!
-  render(App)
+  // render(App)
+  ReactDOM.render(<Comp />, document.getElementById('root'))
 }
+

@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-static'
-
 import styled from 'styled-components'
-
 
 
 const PageContent = styled.div`
