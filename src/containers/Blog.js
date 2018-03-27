@@ -4,12 +4,13 @@ import PageLayout from './PageLayout'
 import styled from 'styled-components';
 
 export const ListContainer = styled.div`
+  color: red;
   padding: initial;
   list-style: none;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 `;
-export const ListItem = styled.li `
+export const ListItem = styled.li`
   height: auto;
   border: solid 1px white;
   margin: 0 0 50px ;
