@@ -4,7 +4,7 @@ import PageLayout from './PageLayout'
 import styled from 'styled-components';
 
 export const ListContainer = styled.div`
-  color: red;
+  color: white;
   padding: initial;
   list-style: none;
   display: flex;
@@ -25,24 +25,31 @@ export const ListItemHeader = styled.div`
   }
 `
 export const ListItemHeaderImg = styled.img` 
-  max-width: 100%;
-  /* width: 100%; */
+  width: 100%; 
 `
 export const ListItemContent = styled.div`
+  line-height: 1.3;
   margin: 20px;
-  color: red;
+  color: white;
 `
 
+const styles = {
+  linkStyle : {
+    display: 'flex',
+    flexDirection: 'column'
+  }
+}
+
 export default withRouteData(({ posts }) => (
+
   <PageLayout>  
   <div>
     <br/>
     <ListContainer>
       {posts.map(post => (
         <ListItem key={post.data.slug}>
-        {console.log(post.data.title)}
           <ListItemHeader>
-          <Link to={`/blog/post/${post.data.slug}`}>
+          <Link style={styles.linkStyle} to={`/blog/post/${post.data.slug}`}>
           <ListItemHeaderImg src={post.data.thumbnail} alt="" />
           </Link>
           </ListItemHeader>
