@@ -103,6 +103,11 @@ export default {
           <Head>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta property="og:title" content="RoseannaM"/>
+            <meta property="og:url" content="https://roseannam.com/blog"/>
+            <meta property="og:image" content="https://goo.gl/CSj9wI"/>
+            <meta property="og:site_name" content="Roseanna's Dev Blog"/>
+            <meta property="og:description" content="My name is Roseanna. I live In Mountain View. I like making things."/>
             {renderMeta.styleTags}
           </Head>
           <Body>{children}</Body>
@@ -111,3 +116,6 @@ export default {
     }
   },
 }
+  
+  
+  

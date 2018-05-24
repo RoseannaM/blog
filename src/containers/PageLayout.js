@@ -6,10 +6,9 @@ import styled from 'styled-components'
 const PageContent = styled.div`
   margin: auto;
   width: 80%;
+  margin-top: 10%;
   background-color: #150a1c;
-  height: auto;   /* WebKit-based browsers will ignore this. */
-  height: auto;  /* Mozilla-based browsers will ignore this. */
-  height: auto;
+  height: auto;  
   padding: 25px;
   display: flex;
   align-items: center;

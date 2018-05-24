@@ -9,3 +9,19 @@ body {
   padding: 0;
   background-color: #150a1c;
 }
+
+.blog-images-md{
+  margin: auto;
+  width: 50%;
+  display: block;
+}
+
+/* markdown images */
+@media (max-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  img.blog-images-md {
+    width: 100%;
+  }
+}
+
+
+   
