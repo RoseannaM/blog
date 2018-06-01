@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 
 const PageContent = styled.div`
+  max-width: 1000px;
   margin: auto;
   width: 80%;
   margin-top: 10%;

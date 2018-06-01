@@ -9,6 +9,9 @@ export const ListContainer = styled.div`
   list-style: none;
   display: flex;
   flex-direction: column;
+  a {
+    color: green;
+  }
 `;
 export const ListItem = styled.li`
   height: auto;
@@ -31,6 +34,9 @@ export const ListItemContent = styled.div`
   line-height: 1.3;
   margin: 20px;
   color: white;
+  a {
+    color: #108db8;
+  }
 `
 
 const styles = {

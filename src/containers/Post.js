@@ -23,7 +23,6 @@ export default withRouteData((args) => {
   <PageLayout>
     <BlogDiv>
     <ListContainer className="blog-post">
-    
     <ListItem key={post.data.slug}>
         <ListItemHeader>
         <Link style={styles.linkStyle} to={`/blog/post/${post.data.slug}`}>
