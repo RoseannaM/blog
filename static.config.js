@@ -25,9 +25,10 @@ function getPosts () {
             // Remove unused key //
             delete dataObj.orig
             // Push object into items array //
-            items.push(dataObj)
-            //check to see if posts are reversed
-            items.reverse()
+            items.unshift(dataObj)
+            //reverse the order that github has for md files
+            //let reversePosts = items.reverse();
+            
           }
         })
         .on('error', e => {
