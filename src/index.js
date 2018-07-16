@@ -17,6 +17,6 @@ if (typeof document !== 'undefined') {
   // Render!
  render(App)
  //the below fails to be rendered
- ReactDOM.render(<Comp />, document.getElementById('root')) 
+// ReactDOM.render(<Comp />, document.getElementById('root')) 
 }
 

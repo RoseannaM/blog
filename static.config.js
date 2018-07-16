@@ -24,11 +24,10 @@ function getPosts () {
             dataObj.data.slug = dataObj.data.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')
             // Remove unused key //
             delete dataObj.orig
-            // Push object into items array //
+            // Push object into items array, reverse order 
             items.unshift(dataObj)
             //reverse the order that github has for md files
-            //let reversePosts = items.reverse();
-            
+            //items.reverse();
           }
         })
         .on('error', e => {
