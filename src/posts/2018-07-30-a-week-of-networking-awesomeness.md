@@ -14,7 +14,7 @@ I had a blast at Google Next despite not participating directly in the event. If
 <img src="/uploads/database-trends.jpg" alt="slide of a graph of database trends" class="blog-images-md">
 
 I'm hoping more people get on board with Firestore as I'm working on an Apollo Link mod at the moment. 
-The second thing I attended was the Work at a Startup event hosted by Y Combinator.
+The second thing I attended was the [Work at a Startup](https://www.workatastartup.com/expo) event hosted by Y Combinator.
 Myself and my Oceanic comrade decided it would be a great chance to meet some new people in the area and get to see the YC headquarters. Getting to go to YC HQ was wild. I still occasionally get "Wow I'm really in Silicon Valley" vibes now and then. Being at YC around a bunch of startups put them into overdrive.
 We walked around and were lucky to stumble across Drop Box HQ! 
 
@@ -32,4 +32,4 @@ Watching the pitches from each company was also very cool. After the event I was
 <img src="/uploads/yc-inside.jpg" alt="Inside yc headquarters watching the pitches" class="blog-images-md">
 
 Last week was a blast. I made tons of new connections and look forward to catching up with the people I met. 
-Now, time to get ready for Burning Man >.< 
+Now, time to get ready for Burning Man >.<
