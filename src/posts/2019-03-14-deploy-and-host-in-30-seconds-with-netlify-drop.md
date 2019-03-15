@@ -10,7 +10,7 @@ This was something I heard recently from a family member. I immediately suggeste
 
 Netlify has been around for a while now and they have built a really powerful platform with a huge number of tools and features. The best part? **It's free and super easy to use!**
 
-<img src="https://media.giphy.com/media/nlmwU1uZgFGdq/giphy.gif" alt="doge shiba" width="200"/>
+<img class="blog-images-md"  src="https://media.giphy.com/media/nlmwU1uZgFGdq/giphy.gif" alt="doge shiba"/>
 
 Let's look at how easy it is for a non technical person to deploy and host a static web site with Netlify and their product Netlify Drop
 
@@ -24,14 +24,14 @@ Ensure all the files are named correctly. Html should be in a file named index, 
 
 Drag the folder from your pc into the browser and watch the magic happen.
 
-<img src="https://thepracticaldev.s3.amazonaws.com/i/s0seonzhypn5hr35minr.gif" alt="Gif image showing the process of dragging the project folder into the browser" width="100%"/>
+<img class="blog-images-md"   src="https://thepracticaldev.s3.amazonaws.com/i/s0seonzhypn5hr35minr.gif" alt="Gif image showing the process of dragging the project folder into the browser" width="100%"/>
 
 And that's it!
 
-<img src="/uploads/doge-wow-blog.gif" alt="doge shiba times three" width="70%"/>
+<img class="blog-images-md"  src="/uploads/doge-wow-blog.gif" alt="doge shiba times three" width="70%"/>
 
 Now you can go ahead and set up your own custom domain, hook the website up with Netlify's cms to manage blog posts or even add and manage forms! 
 
 Power to the people baby!
 
-<img src="https://media.giphy.com/media/xT77XWum9yH7zNkFW0/giphy.gif" width="50%">
+<img class="blog-images-md"  src="https://media.giphy.com/media/xT77XWum9yH7zNkFW0/giphy.gif" width="50%">
