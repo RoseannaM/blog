@@ -13,29 +13,25 @@ Modern web development continues to get more and more powerful. By simply using 
 
 It's 👏 so 👏 easy 👏!
 
-<h2 color="red"> test </h2>
-
-## Step 1:
+<h2 style="color: #ff6599;"> Step 1: </h2>
 
 Choose a theme. Stackbit makes it really easy by providing a selection of pre designed themes
 
-<img width="90%" class="blog-images-md" alt="gif showing theme selection screen in Stackbit" src="/uploads/sb-choose-theme.gif"/>
+<img style="width:90%;" class="blog-images-md" alt="gif showing theme selection screen in Stackbit" src="/uploads/sb-choose-theme.gif"/>
 
-<img class="blog-images-md" alt="gif showing theme selection screen in Stackbit" src="/uploads/sb-choose-theme.gif"/>
-
-## Step 2:
+<h2 style="color: #ff6599;"> Step 2: </h2>
 
 Select your site generator
 
-<img class="blog-images-md" alt="gif showing theme selection screen in Stackbit" src="/uploads/stack.gif"/>
+<img style="width:90%;" class="blog-images-md" alt="gif showing theme selection screen in Stackbit" src="/uploads/stack.gif"/>
 
 Choose from a wide selection of well known static site generators such as Gatsby and Jekyll.
 
-## Step 3:
+<h2 style="color: #ff6599;"> Step 3: </h2>
 
 Select the content management system / cms you want to use, or none. I choose Netlify's CMS because it's lightweight and simple to use.
 
-<img class="blog-images-md" alt="image showing selection screen for content management systems in Stackbit" src="/uploads/netl.gif"/>
+<img style="width:90%;" class="blog-images-md" alt="image showing selection screen for content management systems in Stackbit" src="/uploads/netl.gif"/>
 
 That's it! 
 No you can upload your content and style it however you please.
