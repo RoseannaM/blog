@@ -14,11 +14,13 @@ Netlify has been around for a while now and they have built a really powerful pl
 
 Let's look at how easy it is for a non technical person to deploy and host a static web site with Netlify and their product Netlify Drop
 
+<h2 color="red">test 1</h2>
+
 ### Step 1: Setup your website folder correctly:
 
 Ensure all the files are named correctly. Html should be in a file named index, CSS should be in a file named styles and Javascript should be in a file named scripts. 
 
-<img class="blog-images-md" src="https://thepracticaldev.s3.amazonaws.com/i/abw3zwbqe2zakffrsrmd.png" alt="Picture showing correct and incorrect file structure" width="65%"/>
+<img width="90%" class="blog-images-md" src="https://thepracticaldev.s3.amazonaws.com/i/abw3zwbqe2zakffrsrmd.png" alt="Picture showing correct and incorrect file structure" width="65%"/>
 
 ### Step 2: Drag and Drop
 
@@ -28,7 +30,7 @@ Drag the folder from your pc into the browser and watch the magic happen.
 
 And that's it!
 
-<img class="blog-images-md"  src="/uploads/doge-wow-blog.gif" alt="doge shiba times three" width="70%"/>
+<img class="blog-images-md" src="/uploads/doge-wow-blog.gif" alt="doge shiba times three" width="70%"/>
 
 Now you can go ahead and set up your own custom domain, hook the website up with Netlify's cms to manage blog posts or even add and manage forms! 
 
